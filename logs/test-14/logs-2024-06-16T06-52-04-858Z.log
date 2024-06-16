@@ -1,0 +1,32 @@
+[2024-06-16T06:52:04.864Z] [INFO] Initializing test setup...
+[2024-06-16T06:52:04.867Z] [INFO] Getting user credentials.
+[2024-06-16T06:52:15.548Z] [INFO] User: Admin
+[2024-06-16T06:52:11.987Z] [INFO] Selecting subsystem.
+[2024-06-16T06:52:15.080Z] [INFO] Selecting environment URL.
+[2024-06-16T06:52:20.115Z] [INFO] Login process initiated.
+[2024-06-16T06:52:20.118Z] [INFO] Entering text into element "Email input field": admin@learup.com
+[2024-06-16T06:52:20.117Z] [INFO] Entering credentials...
+[2024-06-16T06:52:20.119Z] [INFO] Locating element: Email input field
+[2024-06-16T06:52:25.553Z] [INFO] Entering text into element "Password input field": LearUp2023
+[2024-06-16T06:52:25.555Z] [INFO] Locating element: Password input field
+[2024-06-16T06:52:25.910Z] [INFO] Clicking on the sign-in button...
+[2024-06-16T06:52:25.912Z] [INFO] Locating element: undefined
+[2024-06-16T06:52:25.948Z] [INFO] Clicking element: undefined
+[2024-06-16T06:52:26.030Z] [INFO] Clicked element successfully: undefined
+[2024-06-16T06:52:26.031Z] [INFO] Login process completed successfully.
+[2024-06-16T06:52:26.033Z] [INFO] Taking screenshot
+[2024-06-16T06:52:26.224Z] [INFO] Screenshot saved to: ./logs/test-14/login-page-end.png
+[2024-06-16T06:52:26.228Z] [INFO] Initiating PMS access.
+[2024-06-16T06:52:26.228Z] [INFO] Locating element: PMS access
+[2024-06-16T06:52:35.319Z] [INFO] Clicking element: PMS access
+[2024-06-16T06:52:35.693Z] [INFO] Clicked element successfully: PMS access
+[2024-06-16T06:52:35.694Z] [INFO] PMS access completed successfully.
+[2024-06-16T06:52:35.695Z] [INFO] Taking screenshot
+[2024-06-16T06:52:36.047Z] [INFO] Screenshot saved to: ./logs/test-14/click-acces-pms.png
+[2024-06-16T06:52:36.049Z] [INFO] Locating element: undefined
+[2024-06-16T06:52:36.079Z] [INFO] Clicking element: undefined
+[2024-06-16T06:52:36.207Z] [INFO] Clicked element successfully: undefined
+[2024-06-16T06:52:36.209Z] [ERROR] Error in the test: TypeError: this.seleniumUtils.takeScreenshot is not a function
+[2024-06-16T06:52:36.210Z] [INFO] All tests completed successfully.
+[2024-06-16T06:52:39.218Z] [INFO] Taking screenshot
+[2024-06-16T06:52:39.423Z] [INFO] Screenshot saved to: ./logs/test-14/end-test.png

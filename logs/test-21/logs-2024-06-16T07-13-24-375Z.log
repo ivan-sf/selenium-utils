@@ -1,0 +1,5 @@
+[2024-06-16T07:13:31.982Z] [ERROR] Failed to open WhatsApp Web: TypeError: this.driver.get is not a function
+[2024-06-16T07:13:24.382Z] [INFO] Getting WhatsApp user data.
+[2024-06-16T07:13:30.482Z] [INFO] Getting message content.
+[2024-06-16T07:13:24.379Z] [INFO] Initializing test setup...
+[2024-06-16T07:13:31.986Z] [INFO] All tests completed successfully.

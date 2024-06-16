@@ -1,0 +1,40 @@
+[2024-06-15T20:01:00.073Z] [INFO] Initializing test setup...
+[2024-06-15T20:01:07.358Z] [INFO] User: Admin
+[2024-06-15T20:01:00.075Z] [INFO] Getting user credentials.
+[2024-06-15T20:01:05.436Z] [INFO] Selecting subsystem.
+[2024-06-15T20:01:06.904Z] [INFO] Selecting environment URL.
+[2024-06-15T20:01:14.521Z] [INFO] Login process initiated.
+[2024-06-15T20:01:14.528Z] [INFO] Entering text into element "Email input field": admin@learup.com
+[2024-06-15T20:01:14.526Z] [INFO] Entering credentials...
+[2024-06-15T20:01:14.529Z] [INFO] Locating element: Email input field
+[2024-06-15T20:01:20.086Z] [INFO] Entering text into element "Password input field": LearUp2023
+[2024-06-15T20:01:20.088Z] [INFO] Locating element: Password input field
+[2024-06-15T20:01:20.469Z] [INFO] Clicking on the sign-in button...
+[2024-06-15T20:01:20.501Z] [INFO] Locating element: undefined
+[2024-06-15T20:01:20.524Z] [INFO] Clicking element: undefined
+[2024-06-15T20:01:20.827Z] [INFO] Clicked element successfully: undefined
+[2024-06-15T20:01:20.828Z] [INFO] Login process completed successfully.
+[2024-06-15T20:01:20.829Z] [INFO] Taking screenshot
+[2024-06-15T20:01:21.097Z] [INFO] Screenshot saved to: ./logs/test-2/login-page-end.png
+[2024-06-15T20:01:21.100Z] [INFO] Initiating PMS access.
+[2024-06-15T20:01:21.101Z] [INFO] Locating element: PMS access
+[2024-06-15T20:01:31.249Z] [ERROR] Error locating element "PMS access": TimeoutError: Waiting for element to be located By(xpath, //*[@id="__next"]/div[2]/div/div/div[2]/div/div/div[2]/ul/li[1]/div/div/div)
+Wait timed out after 10147ms
+[2024-06-15T20:01:31.252Z] [ERROR] Error initiating PMS access: TimeoutError: Waiting for element to be located By(xpath, //*[@id="__next"]/div[2]/div/div/div[2]/div/div/div[2]/ul/li[1]/div/div/div)
+Wait timed out after 10147ms
+[2024-06-15T20:01:31.251Z] [ERROR] Error clicking element "PMS access": TimeoutError: Waiting for element to be located By(xpath, //*[@id="__next"]/div[2]/div/div/div[2]/div/div/div[2]/ul/li[1]/div/div/div)
+Wait timed out after 10147ms
+[2024-06-15T20:01:31.253Z] [INFO] Taking screenshot
+[2024-06-15T20:01:31.491Z] [INFO] Screenshot saved to: ./logs/test-2/click-acces-pms.png
+[2024-06-15T20:01:31.529Z] [INFO] Clicking on the masters button...
+[2024-06-15T20:01:31.752Z] [INFO] Locating element: undefined
+[2024-06-15T20:01:41.915Z] [ERROR] Error locating element "undefined": TimeoutError: Waiting for element to be located By(xpath, //*[@id="__next"]/div[2]/div[1]/div/div[1]/div/div[2]/ul[1]/div[4]/a)
+Wait timed out after 10155ms
+[2024-06-15T20:01:41.917Z] [ERROR] Error clicking on masters: TimeoutError: Waiting for element to be located By(xpath, //*[@id="__next"]/div[2]/div[1]/div/div[1]/div/div[2]/ul[1]/div[4]/a)
+Wait timed out after 10155ms
+[2024-06-15T20:01:41.919Z] [ERROR] Error in the test: TypeError: Cannot read properties of undefined (reading 'takeScreenshot')
+[2024-06-15T20:01:41.916Z] [ERROR] Error clicking element "undefined": TimeoutError: Waiting for element to be located By(xpath, //*[@id="__next"]/div[2]/div[1]/div/div[1]/div/div[2]/ul[1]/div[4]/a)
+Wait timed out after 10155ms
+[2024-06-15T20:01:41.919Z] [INFO] All tests completed successfully.
+[2024-06-15T20:01:44.932Z] [INFO] Taking screenshot
+[2024-06-15T20:01:45.440Z] [INFO] Screenshot saved to: ./logs/test-2/end-test.png

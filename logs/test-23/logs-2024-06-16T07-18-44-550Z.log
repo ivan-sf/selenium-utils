@@ -1,0 +1,8 @@
+[2024-06-16T07:18:44.555Z] [INFO] Initializing test setup...
+[2024-06-16T07:18:49.195Z] [INFO] User: undefined
+[2024-06-16T07:18:44.558Z] [INFO] Getting WhatsApp user data.
+[2024-06-16T07:18:48.181Z] [INFO] Getting message content.
+[2024-06-16T07:18:54.693Z] [INFO] Opened WhatsApp Web.
+[2024-06-16T07:18:54.696Z] [INFO] All tests completed successfully.
+[2024-06-16T07:18:57.698Z] [INFO] Taking screenshot
+[2024-06-16T07:18:57.916Z] [INFO] Screenshot saved to: ./logs/test-23/end-test.png

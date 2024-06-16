@@ -1,0 +1,34 @@
+[2024-06-15T20:02:15.055Z] [INFO] Initializing test setup...
+[2024-06-15T20:02:15.057Z] [INFO] Getting user credentials.
+[2024-06-15T20:02:25.713Z] [INFO] User: admin@learup.com
+[2024-06-15T20:02:21.941Z] [INFO] Selecting subsystem.
+[2024-06-15T20:02:24.704Z] [INFO] Selecting environment URL.
+[2024-06-15T20:02:33.295Z] [INFO] Login process initiated.
+[2024-06-15T20:02:33.308Z] [INFO] Entering text into element "Email input field": admin@learup.com
+[2024-06-15T20:02:33.307Z] [INFO] Entering credentials...
+[2024-06-15T20:02:33.482Z] [INFO] Locating element: Email input field
+[2024-06-15T20:02:39.778Z] [INFO] Entering text into element "Password input field": LearUp2023
+[2024-06-15T20:02:39.883Z] [INFO] Locating element: Password input field
+[2024-06-15T20:02:40.298Z] [INFO] Clicking on the sign-in button...
+[2024-06-15T20:02:40.347Z] [INFO] Locating element: undefined
+[2024-06-15T20:02:40.405Z] [INFO] Clicking element: undefined
+[2024-06-15T20:02:40.621Z] [INFO] Clicked element successfully: undefined
+[2024-06-15T20:02:40.623Z] [INFO] Login process completed successfully.
+[2024-06-15T20:02:40.625Z] [INFO] Taking screenshot
+[2024-06-15T20:02:40.898Z] [INFO] Screenshot saved to: ./logs/test-4/login-page-end.png
+[2024-06-15T20:02:40.900Z] [INFO] Initiating PMS access.
+[2024-06-15T20:02:40.901Z] [INFO] Locating element: PMS access
+[2024-06-15T20:02:50.696Z] [INFO] Clicking element: PMS access
+[2024-06-15T20:02:50.950Z] [INFO] Clicked element successfully: PMS access
+[2024-06-15T20:02:50.951Z] [INFO] PMS access completed successfully.
+[2024-06-15T20:02:50.951Z] [INFO] Taking screenshot
+[2024-06-15T20:02:51.229Z] [INFO] Screenshot saved to: ./logs/test-4/click-acces-pms.png
+[2024-06-15T20:02:51.231Z] [INFO] Clicking on the masters button...
+[2024-06-15T20:02:51.232Z] [INFO] Locating element: undefined
+[2024-06-15T20:02:51.259Z] [INFO] Clicking element: undefined
+[2024-06-15T20:02:51.376Z] [INFO] Clicked element successfully: undefined
+[2024-06-15T20:02:51.377Z] [INFO] Load masters successfully.
+[2024-06-15T20:02:51.378Z] [ERROR] Error in the test: TypeError: Cannot read properties of undefined (reading 'takeScreenshot')
+[2024-06-15T20:02:51.379Z] [INFO] All tests completed successfully.
+[2024-06-15T20:02:54.381Z] [INFO] Taking screenshot
+[2024-06-15T20:02:54.555Z] [INFO] Screenshot saved to: ./logs/test-4/end-test.png

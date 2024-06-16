@@ -1,0 +1,19 @@
+{
+  "name": "selenium-utils",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev-lu": "node main-learup.js",
+    "dev": "node main-wsp.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "readline-sync": "^1.4.10",
+    "selenium-webdriver": "^4.21.0"
+  }
+}

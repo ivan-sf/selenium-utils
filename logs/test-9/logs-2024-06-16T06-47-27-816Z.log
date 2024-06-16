@@ -1,0 +1,38 @@
+[2024-06-16T06:47:27.852Z] [INFO] Initializing test setup...
+[2024-06-16T06:47:45.607Z] [INFO] User: Ivan
+[2024-06-16T06:47:27.854Z] [INFO] Getting user credentials.
+[2024-06-16T06:47:43.661Z] [INFO] Selecting subsystem.
+[2024-06-16T06:47:45.183Z] [INFO] Selecting environment URL.
+[2024-06-16T06:47:55.311Z] [ERROR] Failed to open the page: WebDriverError: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=125.0.6422.142)
+[2024-06-16T06:47:55.315Z] [INFO] Entering text into element "Email input field": admin@learup.com
+[2024-06-16T06:47:55.314Z] [INFO] Entering credentials...
+[2024-06-16T06:47:55.316Z] [INFO] Locating element: Email input field
+[2024-06-16T06:47:56.633Z] [ERROR] Error locating element "Email input field": NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+[2024-06-16T06:47:56.642Z] [ERROR] Error entering credentials: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+[2024-06-16T06:47:56.638Z] [ERROR] Error sending keys to element "Email input field": NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+[2024-06-16T06:47:56.664Z] [INFO] Locating element: undefined
+[2024-06-16T06:47:56.644Z] [INFO] Clicking on the sign-in button...
+[2024-06-16T06:47:56.697Z] [ERROR] Error locating element "undefined": NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+[2024-06-16T06:47:56.753Z] [ERROR] Error clicking element "undefined": NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+[2024-06-16T06:47:56.853Z] [INFO] Taking screenshot
+[2024-06-16T06:47:56.762Z] [ERROR] Error clicking on the sign-in button: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+[2024-06-16T06:47:56.903Z] [ERROR] Error taking screenshot: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+[2024-06-16T06:47:56.905Z] [ERROR] Error in the test: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+[2024-06-16T06:47:56.910Z] [INFO] All tests completed successfully.
